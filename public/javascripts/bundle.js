@@ -89,7 +89,8 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
- // import $ from 'jquery';
+ // これはいらなかったかもしれません↓途中でエラーが出ました
+// import $ from 'jquery';
 
 var global = Function('return this;')();
 global.jQuery = $; // import bootstrap from 'bootstrap';
