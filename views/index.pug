@@ -1,5 +1,7 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  div.jumbotron.my-3
+    h1.display-4 どうぶつ占い
+    p.lead ボタンをクリックして、今日のラッキーアニマルをみましょう
+  a(href="/result").btn.btn-success.btn-lg.m-4 うらなう

@@ -6,3 +6,23 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+/* うらない結果 */
+.result {
+  display: block;
+  margin: 0 auto;
+  width: 60%;
+  height: 80px;
+  align-items:center;
+  justify-content:center;
+  color: white;
+  border-radius: 4px;
+  
+}
+
+.mycss-center {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}

@@ -10,8 +10,9 @@ router.get('/', function(req, res, next) {
   const animalImg = "public/images/pic1" ;
   res.render('result', { 
     root: animal,
-    animalImg: animalImg
   });
 });
 
 module.exports = router;
+
+// animalImg: animalImg

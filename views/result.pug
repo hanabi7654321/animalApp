@@ -1,7 +1,15 @@
 extends layout
 
 block content
-  h1= title
-  p 今日のラッキーアニマルは
-  p #{root}
+  
+  div.text-center
+    h3.m-5 今日のラッキーアニマルは
+  div.mycss-center
+    h1.text-center.p-3.bg-success.result #{root}
+  p.mt-5.text-center です！それでは良い一日を
+  div.text-center
+    a(href="/").btn.btn-outline-success.text-right もどる
+  
+  
+  
   
