@@ -3,14 +3,16 @@ extends layout
 block content
   
   div.text-center
-    h3.m-5 今日のラッキーアニマルは
-  div.mycss-center
-    h1.text-center.p-3.bg-success.result #{result}
+    h3.m-4 今日のラッキーアニマルは
+  //- 結果はランダム表示 ------
+  div.mycss-center 
+    h1.text-center.p-3.bg-success.result #{result}  
     h5.text-success.m-3.content #{content}
     img(src=`/images/pic${imgnum}.png`).animalPic
+  //--------------------------
   p.mt-5.text-center それでは良い一日を
   div.text-center
-    a(href="/").btn.btn-outline-success.text-right もどる
+    a(href="/").btn.btn-outline-success.text-right.mb-2 もどる
   
   
   
