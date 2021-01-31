@@ -99,12 +99,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var global = Function('return this;')();
 global.jQuery = jquery__WEBPACK_IMPORTED_MODULE_0___default.a;
- // import dc from 'damage-calc';
-// const root = document.getElementById('root');
-// root.innerHTML =
-//   '<p>攻撃力 100, 防御 50, 防御貫通 30 のダメージは、' +
-//   dc.effectiveDamage(100, 50, 30) +
-//   '</p>';
+
 
 /***/ }),
 /* 1 */

@@ -1,5 +1,6 @@
 doctype html
 html
+  div.wraper
   head
     title どうぶつ占い
     meta(charset="utf-8")
@@ -10,9 +11,12 @@ html
     crossorigin="anonymous")
     link(rel="stylesheet", href="/stylesheets/style.css")
   body
-    nav.navbar.navbar-dark.bg-dark
-      div.navbar-header
-        a(href="/").navbar-brand.nav-link どうぶつ占い
-    div.container
-      block content
-    script(src="/javascripts/bundle.js")
+    div.wrap
+      nav.navbar.navbar-dark.bg-dark
+        div.navbar-header
+          a(href="/").navbar-brand.nav-link LUCKY ANIMAL
+      div.container
+        block content
+      script(src="/javascripts/bundle.js")
+      div.footer.bg-dark.mt-3
+        p.footer-content &copy; Hanabi since2021

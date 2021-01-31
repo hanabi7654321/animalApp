@@ -1,0 +1,8 @@
+{
+  "name": "lucky Animal",
+  "description": "ラッキーアニマルおみくじ",
+  "repository": "https://github.com/hanabi7654321/animalApp",
+  "logo": "",
+  "keywords": ["node"],
+  "image": "heroku/nodejs"
+}
