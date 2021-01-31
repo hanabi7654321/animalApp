@@ -12,7 +12,7 @@ var resultRouter = require('./routes/result');
 var app = express();
 app.use(helmet());
 var app = express();
-app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public','images','favicon.ico')));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
