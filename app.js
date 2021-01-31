@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var helmet = require('helmet');
-var favicon = require('serve-favicon')
+var favicon = require('serve-favicon');
 
 var indexRouter = require('./routes/index');
 var resultRouter = require('./routes/result');
@@ -12,7 +12,7 @@ var resultRouter = require('./routes/result');
 var app = express();
 app.use(helmet());
 var app = express();
-app.use(favicon(path.join(__dirname, 'public','images','favicon.ico')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -43,5 +43,6 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
