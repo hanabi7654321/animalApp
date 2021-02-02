@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
@@ -59,7 +60,6 @@ a {
 /* フッターを下に固定 */
 .wrap {  
   min-height: 100vh; 
-  position: relative;
 }
 
 .footer {
