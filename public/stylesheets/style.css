@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  /* height: 100%; */
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
@@ -21,6 +21,9 @@ body {
 a {
   color: #00B7FF;
 }
+
+
+
 
 
 /* うらない結果 */
@@ -57,13 +60,16 @@ a {
 }
 
 
+
+
 /* フッターを下に固定 */
 .wrap {  
-  min-height: 100vh; 
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .footer {
-  position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -82,4 +88,17 @@ a {
 .snsimg {  
   width: 48px;
   height: 48px;
+}
+
+
+/* top-page */
+.top01 {
+  height: 240px;
+  text-align: center;
+}
+
+.top-img {
+  height: 200px;
+  width: auto;
+
 }

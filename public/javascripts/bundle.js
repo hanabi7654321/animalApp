@@ -98,6 +98,13 @@ global.jQuery = $;
 
 var bootstrap = __webpack_require__(2);
 
+var resultAnimal = $('#result-animal');
+resultAnimal.on('click', function () {
+  block.animate({
+    opacity: '0.5'
+  }, 2000);
+});
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
